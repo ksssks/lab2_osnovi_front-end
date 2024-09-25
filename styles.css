@@ -1,0 +1,87 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+}
+td, th {
+    border: 2px solid black;
+    height: 40px;
+    width: 60px;
+}
+tr:nth-child(1) {
+    background-color: #328f8f;
+    color: #cd7070;
+}
+
+tr:nth-child(1):hover {
+    color: #328f8f;
+    background-color: #cd7070;
+}
+
+tr:nth-child(2) {
+    background-color: #f5f532;
+    color: #0a0acd;
+}
+tr:nth-child(2):hover {
+    color: #f5f532;
+    background-color: #0a0acd;
+}
+
+.flag1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.horizontal {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
+
+.vertical {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+
+.flag2 {
+    margin-top: 10px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.line1 {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    width: 40px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.line2 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
